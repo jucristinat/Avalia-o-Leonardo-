@@ -4,6 +4,10 @@ function twoSum(numeros, alvo){
 
         for(let j = i + 1; j < numeros.length; j++){
             console.log('segundo num: ', numeros[j]);
+            
+        if (numeros[i] + numeros[j] === alvo) {
+    return [i, j];
+}
         }
     }
 }
